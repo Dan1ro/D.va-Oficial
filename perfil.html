@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/button.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap" rel="stylesheet">
+    <script src="css/js/script.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Document</title>
+</head>
+<body>
+<header>
+
+    
+    <img src="css/imagens/logo.png" alt="">
+
+
+    <div id="desktop_menu">
+
+        <li class="nav-item"><a href="" class="nav-link">Início</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Serviços</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Contatos</a></li>
+
+    </div>
+
+
+       <button onclick="mudarTema()" id="mudar_tema">
+    
+        <span class="material-symbols-outlined" id="mudar">
+
+            dark_mode
+    
+        </span>
+        
+    </button>
+
+
+    <button id="botao-hamburguer" onclick="Menu()">☰</button>
+
+    <div id="menu_bar">
+
+        <li><button id="close" onclick="Menu()">X</button></li>
+        <li class="nav-item"><a href="" class="nav-link">Início</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Serviços</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Contatos</a></li>
+
+    </div>
+</header>
+<main>
+    <section id="perfil_usuario">
+
+        <article id="img_perfil">
+
+            <img src="css/imagens/danilo.png" alt="">
+
+        </article>
+
+        <article id="nome_usuario">
+
+            <h2>Danilo</h2>
+
+        </article>
+
+    <article id="avaliacao">
+
+    <div class="rating">
+        <span class="star"></span>
+        <span class="star"></span>
+        <span class="star"></span>
+        <span class="star"></span>
+        <span class="star"></span>
+    </div>
+
+    </article>
+
+    <article id="desc_usuario">
+
+        <h3>Profissinal da Área de Tecnologia</h3>
+
+    </article>
+
+    <article id="btn_contratar">
+
+        <button class="botao_nav1">Contratar</button>
+       
+    </article>
+    </section>  
+
+    <section id="desc_prestador">
+
+        <article id="desc_prestador_post">
+            <p>Domínio de Linguagens de Programação: Proficiência em linguagens essenciais para desenvolvimento web, como HTML, CSS e JavaScript, além de frameworks e bibliotecas relevantes, como React, Angular ou Vue.js.
+                Experiência em Backend: Conhecimento em linguagens de programação para o desenvolvimento de lógica de servidor, como Python, Node.js, Ruby, PHP, entre outras, e familiaridade com frameworks populares como Django, Flask, Express, Rails ou Laravel.
+                Conhecimento em Bancos de Dados: Capacidade de projetar e trabalhar com bancos de dados relacionais (por exemplo, MySQL, PostgreSQL) e/ou não relacionais (por exemplo, MongoDB, Firebase) para armazenamento e recuperação eficiente de dados.</p>
+        </article>  
+
+        <article>
+            <h2>Competências</h2>
+
+            <p>Conhecimento Técnico, Resolução de Problemas, Gestão de Projetos</p>
+        </article>
+
+    </section>
+
+</main>
+<footer>
+
+
+    <p>Desenvolvído por Danilo e Vanessa</p>
+    <p>Alunos do Curso Técnico de Informática - Senac Santos</p> 
+
+</footer>
+   
+</body>
+</html>

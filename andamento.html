@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/button.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap" rel="stylesheet">
+    <script src="css/js/script.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Projeto</title>
+</head>
+<body>
+<header>
+
+    <img src="css/imagens/logo.png" alt="">
+
+
+    <div id="desktop_menu">
+
+        <li class="nav-item"><a href="" class="nav-link">Início</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Serviços</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Contatos</a></li>
+
+    </div>
+
+
+       <button onclick="mudarTema()" id="mudar_tema">
+    
+        <span class="material-symbols-outlined" id="mudar">
+
+            dark_mode
+    
+        </span>
+        
+    </button>
+
+
+    <button id="botao-hamburguer" onclick="Menu()">☰</button>
+
+    <div id="menu_bar">
+
+        <li><button id="close" onclick="Menu()">X</button></li>
+        <li class="nav-item"><a href="" class="nav-link">Início</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Serviços</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Contatos</a></li>
+
+    </div>
+
+
+</header>
+<main>
+
+    <div id="contato_cliente_func">
+
+        <button>Entrar em contato</button>
+
+    </div>
+
+    <section id="acompanhamento">
+
+        <article class="acomp_servico">
+
+            <div class="acomp_cima">
+
+                <span>Para fazer</span>
+
+                <img src="css/imagens/trash-can.png" alt="">
+
+            </div>
+
+            <div class="acomp_label">
+                <input type="text">
+            </div>
+
+        </article>
+
+        <article class="acomp_servico2">
+
+            <div class="acomp_cima">
+
+                <span>Em andamento</span>
+
+                <img src="css/imagens/trash-can.png" alt="">
+
+            </div>
+
+            <div class="acomp_label">
+                <input type="text">
+            </div>
+
+        </article>
+
+        <article class="acomp_servico3">
+
+            <div class="acomp_cima">
+
+                <span id="branquinho">Concluído</span>
+
+                <img src="css/imagens/trash-can.png" alt="">
+
+            </div>
+
+            <div class="acomp_label">
+                <input type="text">
+            </div>
+
+        </article>
+
+
+    </section>
+
+    
+
+    <section id="datas">
+
+        <article class="data_servico">
+        <p>Data de solicitação:</p> 
+        <input type="text">
+        </article>
+
+        <article class="data_servico">
+            <p>Data de conclusão:</p> 
+            <input type="text">
+            </article>
+
+        <article id="valor">
+
+            <Label>Valor:</Label> <input type="text" placeholder="Digite o valor aqui...:">
+
+        </article>
+
+    </section>
+
+    <section id="botaozinho">
+    <div id="vamos_cancelar">
+
+        <button id="cancel">Cancelar Serviço</button>
+
+    </div>
+
+    <div id="contato_cliente_func1">
+
+        <button>Finalizar Serviço</button>
+
+    </div>
+</section>
+</main>
+<footer>
+
+    <p>Desenvolvído por Danilo e Vanessa</p>
+    <p>Alunos do Curso Técnico de Informática - Senac Santos</p> 
+
+</footer>
+</body>
+</html>

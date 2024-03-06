@@ -365,6 +365,935 @@ footer p {
 
 }
 
+/* Pagina serviços Start*/
+
+#busca {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 25px 0px;
+   
+}
+
+#txtBusca {
+
+    border: solid 2px #D70F87;
+    border-radius: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 60px;
+    padding-left: 10px;
+    font-size: 15px;
+    
+
+}
+
+#btnBuscar {
+
+    margin-left: 5px;
+    padding: 10px 23px;
+    border-radius: 10px;
+    border: none;
+    background-color: #2E57E7;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+#title_services {
+
+    margin-left: 23px;
+    
+
+}
+
+#servicos {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 15%;
+    
+
+}
+
+
+#servicos img {
+
+    width: 80%;
+    height: 50%;
+    border-radius: 5px;
+    border: solid 2px #2E57E7;
+    opacity: 0.8;
+    margin: 20px 0px;
+    
+
+}
+
+.imagens {
+
+    position: relative;
+
+}
+
+.imagens p {
+
+    position: absolute;
+    bottom: 17%;
+    left: 5%;
+    color: #FFF;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+#function_buttons {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#button_1 {
+    background-color: #1E3480;
+    padding: 13px 15px;
+}
+
+#button_2 {
+    background-color: #851E5C;
+    padding: 13px 25px;
+}
+
+#button_3 {
+    background-color: #2E57E7;
+    padding: 13px 30px;
+}
+
+#button_4 {
+    background-color: #ED249C;
+    padding: 13px 25px;
+    
+}
+
+#button_5 {
+    background-color: #D70F87;
+    padding: 13px 15px;
+}
+
+#function_buttons button {
+ 
+    margin: 10px 2px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    color: #FFF;
+    
+}
+
+footer {
+
+    padding: 10px;
+
+}
+
+footer p {
+
+    font-size: 13px;
+
+}
+
+/* servicos start */
+
+
+
+.ancora_do_cartao {
+    
+   background-color: #2E57E7;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   
+}
+
+.span1 {
+
+    font-size: 25px;
+    color: #FFF;
+    padding-left: 15px;
+
+
+}
+
+.ancora_do_cartao {
+
+    padding-right: 15px;
+
+}
+
+.ancoras_servico1 {
+
+    margin: 40px 30px 40px 30px;
+    
+    height: 100%;
+    
+}
+
+.ancoras_servicos
+{
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-bottom: 8px;
+    margin-bottom: 40px;
+
+}
+
+
+.ibagens {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+
+.ibagens img {
+
+    border: 2px solid #E1E1E1;
+    padding: 7px;
+    border-radius: 10px;
+
+
+}
+
+#pag_servicos
+{
+
+    margin: 25px;
+
+}
+
+#pag_servicos h1 {
+
+    margin-left: 65px;
+
+}
+
+#pag_servicos p {
+
+    margin-top: 30px;
+    line-height: 25px;
+
+}
+
+#video {
+
+    margin-left: 40px;
+    margin-bottom: 25px;
+
+}
+
+
+/* Página serviços End */
+
+/* Página login start */
+
+
+#area_login {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px #E1CACA;
+    border-radius: 5px;
+    margin: 150px 30px 150px 30px;
+
+}
+
+#area_login h2 {
+
+    font-size: 19px;
+    font-weight: 1000;
+    padding: 13px;
+
+}
+
+#arruma_pfvr {
+
+    font-size: 13px;
+    padding-top: 5px;
+
+}
+
+#checkbox_area label {
+
+    font-weight: 800;
+    margin-left: 7px;
+
+}
+
+#checkbox_area p {
+
+    font-size: 12px;
+
+}
+
+
+.check_login {
+
+    margin:25px;
+
+}
+
+#confirmar_conta {
+
+    background-color: #D70F87;
+    padding: 8px 35px 8px 35px;
+    border-radius: 5px;
+    border: none;
+    color: #FFF;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+
+}
+
+.checkbox {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 3px solid #2E57E7;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#conteudo_principal {
+
+    margin-top: 300px;
+    /* margin-bottom: 300px; */
+
+
+}
+
+
+
+/* Página login end */
+
+/* cadastro cliente start */
+
+#title {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 45px;
+    margin-bottom:45px ;
+    font-size: 14px;
+
+}
+
+#section_form {
+
+    margin-left: 40px;
+
+}   
+
+#section_form label {
+
+    font-size: 17px;
+    font-weight:lighter;
+
+}
+
+.input_pretty {
+
+    padding: 10px 200px 10px 10px;
+    border-radius: 10px;
+    border: solid 2px #2E57E7;
+    margin-bottom: 15px;
+
+}
+
+#section_form p {
+
+    font-weight: lighter;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+}
+
+
+.checkbox_cad {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 3px solid #ED249C;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+#cadastrar_cliente {
+
+    background-color: #ED249C;
+    border-radius: 10px;
+    color: #FFF;
+    padding: 10px 45px 10px 45px;
+    font-size: 17px;
+    border: none;
+    font-weight: bold;
+}
+
+#btn_cadastrar {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 35px 20px 1px;
+
+}
+
+
+
+
+/* cadastro cliente end */
+
+
+.input_pretty_desc {
+
+    padding: 10px 200px 100px 10px;
+    border-radius: 10px;
+    border: solid 2px #2E57E7;
+    margin-bottom: 15px;
+
+}
+
+.personalizar_btn {
+
+    padding: 3px;
+    border: solid 2px #2E57E7;
+    border-radius: 5px;
+    
+
+}
+
+.personalizar_btn1 {
+
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ED249C;
+    color: #FFF;
+
+}
+
+#option {
+
+    margin-left: 206px;
+    margin-right: 10px;
+   
+
+}
+
+/*  Pagina perfil Start*/
+
+#perfil_usuario {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#img_perfil img {
+
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    font-size: 40px;
+  }
+
+  .star {
+    display: inline-block;
+    margin: 0 5px;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin-right: 12px;
+  }
+
+  .star::before {
+    content: '\2605'; /* Código Unicode para uma estrela vazia */
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #ccc;
+  }
+
+  .star:hover::before,
+  .star:hover ~ .star::before {
+    content: '\2605'; /* Código Unicode para uma estrela preenchida */
+    color: #F154F5; /* Cor amarela para a estrela preenchida */
+  }
+
+  #nome_usuario {
+
+    font-size: 20px;
+    margin-bottom: 2px;
+
+  }
+
+  #desc_usuario {
+
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: 17px;
+
+  }
+
+  #btn_contratar {
+
+    padding: 1px 12px;
+    border-radius: 10px;
+    background-color: #2E57E7;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+  }
+
+  #desc_prestador {
+
+    border: solid 1px #C6C6C6;
+    margin: 20px 25px;
+    border-radius: 10px;
+    padding: 25px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+
+  #desc_prestador h2 {
+
+    margin-left: 85px;
+
+   }
+
+
+/* Pagina perfil end */
+
+/* página cardapio start */
+
+#text_filtro  {
+
+    border: solid 2px #7D7D7D;
+    border-radius: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 135px;
+    padding-left: 10px;
+    font-size: 15px;
+    color: #7D7D7D;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+#AARRUMAAAAAAAAAAAAAAAAAAAA img  {
+
+    height: 50px;
+    margin-top: 25px;
+
+}
+
+
+
+#AARRUMAAAAAAAAAAAAAAAAAAAA {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#cardapio_usuarios {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#cardapio_usuarios img {
+
+    width: 60%;
+    border-radius: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.perfil_prestador {
+
+    border: 1px solid #E1E1E1;
+    border-radius: 10px;
+    width: 365px;
+    height: 415px;
+    margin-bottom: 40px;
+   
+
+}
+
+#cardapio_usuarios p {
+
+    margin-left: 25px;
+
+}
+
+#cardapio_usuarios a {
+
+    margin-left: 280px;
+    font-weight: bold;
+
+}
+
+#cardapio_usuarios .rating {
+
+    margin-right: 45px;
+    margin-bottom: 20px;
+
+}
+
+
+
+/* página cardapio end */
+
+/* página contato  start */
+
+.vem_ver {
+
+    border: solid 1px #E4E4E4;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    width: 320px;
+    margin: 150px 1px 150px 40px;
+    
+}
+
+
+#contato_principal img {
+
+    width: 200px;
+    height: 150px;
+
+}
+
+#contato_principal p {
+
+    margin: 4px;
+
+}
+
+.negrito {
+
+    font-weight: bold;
+
+}
+
+
+/* página contato end */
+
+/* página propostas start */
+
+#propostas_user {
+
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px;
+
+}
+
+.proposta_aqui {
+
+    border: 1px solid #E6E6E6;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 360px;
+    height: 300px;
+
+}
+
+#propostas_user img {
+
+    width: 50%;
+    border-radius: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 85px;
+    height: 50%;
+
+}
+
+#propostas_user h1 {
+
+    font-size: 27px;
+    margin-left: 117px;
+    margin-bottom: 15px;
+
+}
+
+.linha  {
+
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+#Aceite button {
+
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: #2E57E7;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+#Aceite p {
+
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+#Aceite {
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 60px;
+    margin-top: 20px;
+
+}
+
+/* página propostas end */
+
+/* pagina acompanhamento start */
+
+#contato_cliente_func button {
+
+    padding: 13px 20px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    background-color: #2E57E7;
+    color: #FFF;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    margin-top: 25px;
+    margin-left: 105px;
+
+}
+
+#contato_cliente_func1 button {
+
+    padding: 13px 20px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    background-color: #ED249C;
+    color: #FFF;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    margin-top: 25px;
+    margin-left: 110px;
+
+}
+
+.acomp_servico {
+
+    background-color: #F154F5;
+    margin: 30px 30px 5px 30px;
+    border-radius: 20px;
+    padding: 25px 1px;
+   
+
+}
+
+.acomp_servico2 {
+
+    background-color: #F5F5F5;
+    margin: 30px;
+    border-radius: 20px;
+    padding: 25px 1px;
+   
+
+}
+
+.acomp_servico3 {
+
+    background-color: #2E57E7;
+    margin: 30px 30px 5px 30px;
+    border-radius: 20px;
+    padding: 25px 1px;
+   
+
+}
+
+.acomp_cima {
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.acomp_cima span {
+
+    margin-bottom: 17px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+#branquinho {
+
+    color: #FFF;
+
+}
+
+
+.acomp_label input {
+
+    padding: 50px 70px;
+    margin-left: 29px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.acomp_cima img {
+
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+#datas {
+
+    background-color: #F5F5F5;
+    padding: 20px;
+    margin: 25px;
+    border-radius: 10px;
+
+}
+
+.data_servico p {
+
+    font-weight: bold;
+    margin-bottom: 3px;
+    margin-top: 5px;
+
+}
+
+.data_servico input{
+
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 3px;
+    margin-top: 3px;
+
+}
+
+#cancel {
+
+    padding: 13px 20px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    background-color: #2E57E7;
+    color: #FFF;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    margin-left: 110px;
+    margin-bottom: 20px;
+
+}
+
+#valor {
+
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+#valor input {
+
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 4px;
+    margin-top: 3px;
+    margin-left: 5px;
+
+}
+
+/* pagina acompanhamento end */
+
+
 @media (min-width: 1280px) { 
 
     #botao-hamburguer {
@@ -633,6 +1562,608 @@ footer p {
     
 
 }
+
+/* página serviços start */
+
+#busca {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 60px;
+    border: solid 2px #E1CACA;
+    border-radius: 10px;
+    padding: 70px;
+}
+
+#txtBusca {
+
+    border: solid 2px #D70F87;
+    border-radius: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 600px;
+    padding-left: 10px;
+    font-size: 15px;
+
+}
+
+#btnBuscar {
+
+    padding: 10px 23px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #2E57E7;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+#title_services {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 60px;
+}
+
+#title_services h1 {
+
+    font-size: 35px;
+    margin-left: 20px;
+
+}
+
+#servicos {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 6%;
+    
+
+}
+
+
+
+#servicos img {
+
+    width: 70%;
+    height: 80%;
+    border-radius: 5px;
+    border: solid 2px #2E57E7;
+    opacity: 0.8;
+    position: relative;
+    
+
+}
+
+.imagens p {
+
+    position: absolute;
+    bottom: 11%;
+    margin-left: 5px;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+
+.buttons_flex {
+
+    display: flex;
+    flex-direction: row;
+    margin: 0px 25px;
+
+}
+
+#function_buttons {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3%;
+
+}
+
+#function_buttons button {
+ 
+    margin: 10px 15px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    color: #FFF;
+    
+
+}
+
+#button_1 {
+    background-color: #1E3480;
+    padding: 13px 30px;
+}
+
+#button_2 {
+    background-color: #851E5C;
+    padding: 13px 40px;
+}
+
+#button_3 {
+    background-color: #2E57E7;
+    padding: 13px 40px;
+}
+
+#button_4 {
+    background-color: #ED249C;
+    padding: 13px 40px;
+    
+}
+
+#button_5 {
+    background-color: #D70F87;
+    padding: 13px 30px;
+}
+
+
+
+
+
+/* página serviços end */
+
+/* página cadastro opcao start */
+
+
+#area_login {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 2px #2E57E7;
+    border-radius: 5px;
+    margin: 230px 600px 230px 600px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+
+#area_login h2 {
+
+    font-size: 25px;
+
+}
+
+#arruma_pfvr {
+
+    margin-bottom: 15px;
+
+}
+
+.check_login {
+
+    margin-bottom: 45px;
+  
+}
+
+#checkbox_area label {
+
+    font-weight: 800;
+    margin-left: 7px;
+    font-size: 18px;
+
+}
+
+#checkbox_area p {
+
+    font-size: 13px;
+  
+
+}
+
+#confirmar_conta {
+
+    background-color: #2E57E7;
+
+}
+
+
+/* página cadastro opcao end */
+
+#conteudo_principal {
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    background-color: #0A1E63;
+  
+    
+    
+    
+}
+
+.container_logo {
+
+    width: 100%;
+    height: 100%;
+    padding-top: 400px;
+    
+
+}
+
+
+
+.container_cadastro {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    width: 100%;
+    background-color: #FFF;
+}
+
+#section_form {
+
+    margin-left: 170px;
+
+}
+
+.input_pretty {
+
+    padding: 10px 450px 10px 10px;
+    border-radius: 10px;
+    border: solid 2px #2E57E7;
+    margin-bottom: 15px;
+
+}
+
+#section_form p {
+
+    font-size: 19px;
+
+}
+
+#cadastrar_cliente {
+
+    background-color: #ED249C;
+    border-radius: 10px;
+    color: #FFF;
+    padding: 10px 45px 10px 45px;
+    margin-right: 70px;
+    font-size: 17px;
+    border: none;
+    font-weight: bold;
+}
+
+/* */
+
+.input_pretty_desc {
+
+    padding: 10px 450px 100px 10px;
+    border-radius: 10px;
+    border: solid 2px #2E57E7;
+    margin-bottom: 15px;
+
+}
+
+.personalizar_btn {
+
+    padding: 3px;
+    border: solid 2px #2E57E7;
+    border-radius: 5px;
+    padding-right: 98px;
+    
+
+}
+
+.personalizar_btn1 {
+
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ED249C;
+    color: #FFF;
+
+}
+
+/* página login */
+
+#conteudo_principal {
+
+    background-color: #D70F87;
+    height: 0px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px;
+    /* margin-bottom: 835px; */
+
+}
+
+#so_deus_na_causa img {
+
+    width: 60%;
+    margin-left: 25%;
+ 
+
+
+}
+
+#so_deus_na_causa {
+
+    background-color: #D70F87;
+
+
+}
+
+
+#jesus {
+
+    margin-top: 47.6%;
+
+}
+
+.container_logo {
+
+    padding: 0px;
+    margin: 0px;
+
+   
+    
+}
+
+
+.container_cadastro {
+
+    margin-top: 800px;
+
+}
+
+
+/* página login end */
+
+/* página andamento */
+
+#contato_cliente_func {
+
+    margin-left: 40%;
+    margin-top: 60px;
+
+}
+
+.acomp_cima {
+
+    margin-left: 10px;
+
+}
+
+.acomp_cima img {
+
+    margin-right: 2px;
+
+}
+
+#acompanhamento {
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+
+}
+
+.acomp_servico {
+
+    padding-right: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+
+}
+
+.acomp_servico2 {
+
+    padding-right: 30px;
+    margin-top: 60px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+
+}
+
+.acomp_servico2 input {
+
+    padding-bottom: 60px;
+
+}
+
+.acomp_servico3 {
+
+    padding-right: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+
+}
+
+.acomp_label input {
+
+    padding-right: 180px;
+
+}
+
+#botaozinho {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 150px;
+    
+}
+
+#vamos_cancelar {
+
+    margin-left: 5px;
+
+}
+
+#datas {
+
+    display: flex;
+    flex-direction: row;
+    margin-left: 115px;
+    margin-right: 115px;
+
+}
+
+.data_servico {
+
+    margin-left: 70px;
+
+}
+
+#valor {
+
+    margin-left: 60.5%;
+
+
+}
+
+#contato_cliente_func1 {
+
+    margin-bottom: 45px;
+    margin-right: 120px;
+
+}
+
+/* página andamento end */
+
+/* página cardapio */
+
+#AARRUMAAAAAAAAAAAAAAAAAAAA {
+
+    margin-left: 57.5%;
+
+}
+
+#AARRUMAAAAAAAAAAAAAAAAAAAA input {
+
+    padding-right: 300px;
+
+}
+
+.perfil_prestador {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 2%;
+    width: 85%;  
+    position: relative;
+    
+}
+
+.rating {
+
+    position: absolute;
+    right: 1.5px;
+    top: 0.5px;
+    
+
+}
+
+.especializacoes {
+
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 60px;
+
+}
+
+.ver_perfil {
+
+    padding-right: 60px;
+    margin-top: 100px;
+    margin-left: 10px;
+
+}
+
+#photo img {
+
+    width: 50%;
+    border-radius: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+    height: 50%;
+    margin-bottom: 12px;
+
+}
+
+.nome_usuario {
+
+    position: absolute;
+    margin-bottom: 70px;
+    margin-left: 206px;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+/* página cardapio end */
+
+.vem_ver {
+
+    margin-left: 755px;
+    margin-top: 220px;
+
+}
+
+#contato_principal {
+
+    margin-bottom: 220px;
+    
+
+
+}
+
+/* cadastro */
+
+#la_vem {
+
+    margin-top: 45%;
+
+}
+
+.container_logo {
+
+    background-color: #0A1E63;
+    width: 100%;
+    height: 100%;
+   
+
+}
+
+.container_logo img {
+
+   
+    margin-top: 16%;
+    margin-left: 13%;
+   
+
+
+}
+
+.container_cadastro{
+
+    margin-bottom: 40px;
+
+}
+
+
+/* cadastro end */
 
 
 

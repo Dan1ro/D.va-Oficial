@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/button.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap" rel="stylesheet">
+    <script src="css/js/script.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Login</title>
+</head>
+<body>
+<header>
+
+    <img src="css/imagens/logo.png" alt="">
+
+
+    <div id="desktop_menu">
+
+        <li class="nav-item"><a href="" class="nav-link">Início</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Serviços</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Contatos</a></li>
+
+    </div>
+
+
+       <button onclick="mudarTema()" id="mudar_tema">
+    
+        <span class="material-symbols-outlined" id="mudar">
+
+            dark_mode
+    
+        </span>
+        
+    </button>
+
+
+    <button id="botao-hamburguer" onclick="Menu()">☰</button>
+
+    <div id="menu_bar">
+
+        <li><button id="close" onclick="Menu()">X</button></li>
+        <li class="nav-item"><a href="" class="nav-link">Início</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Serviços</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Contatos</a></li>
+
+    </div>
+
+</header>
+<main>
+
+    
+    <section id="botoes">
+
+        <a href="login.html">
+
+            <button class="botao_nav1">Cadastre-se</button>
+
+        </a>
+
+        <a href=""></a>
+
+            <button class="botao_nav2">Login</button>
+
+        </a>
+
+    </section>
+
+    <section id="conteudo_principal">
+
+    <article class="container_logo">
+
+        <div id="so_deus_na_causa">
+        <img src="css/imagens/logo_pink.png" alt="">
+    </div>
+    </article>
+
+    <article class="container_cadastro">
+    <section id="title">
+
+    <h2>Cadastre-se para contratar</h2>
+    
+    </section>
+
+    <section id="section_form">
+
+        <form action="" method="post">
+
+        <label for="">Usuário: </label><br>
+        <input type="text" class="input_pretty" name="nome" placeholder="Digite aqui seu usuário"><br>
+
+        <label for="">Senha: </label><br>
+        <input type="text" class="input_pretty" name="email" placeholder="Sua senha"><br>
+
+        <input type="checkbox" class="checkbox_cad" name="lembrar_senha"/>
+        <label for="contratar">Lembrar de mim.</label><br><br>
+
+            <div id="btn_cadastrar">
+
+        <input type="submit" id="cadastrar_cliente" name="Login" value="Login"/>
+
+            </div>
+        </form>
+
+    </section>
+
+</article>
+
+   
+
+
+</section>
+
+</main>
+<footer id="jesus">
+
+    <p>Desenvolvído por Danilo e Vanessa</p>
+    <p>Alunos do Curso Técnico de Informática - Senac Santos</p>
+
+</footer>
+</body>
+</html>

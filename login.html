@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/button.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap" rel="stylesheet">
+    <script src="css/js/script.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Login</title>
+</head>
+<body>
+<header>
+
+    <img src="css/imagens/logo.png" alt="">
+
+
+    <div id="desktop_menu">
+
+        <li class="nav-item"><a href="" class="nav-link">Início</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Serviços</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Contatos</a></li>
+
+    </div>
+
+
+       <button onclick="mudarTema()" id="mudar_tema">
+    
+        <span class="material-symbols-outlined" id="mudar">
+
+            dark_mode
+    
+        </span>
+        
+    </button>
+
+
+    <button id="botao-hamburguer" onclick="Menu()">☰</button>
+
+    <div id="menu_bar">
+
+        <li><button id="close" onclick="Menu()">X</button></li>
+        <li class="nav-item"><a href="" class="nav-link">Início</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Serviços</a></li>
+        <li class="nav-item"><a href="" class="nav-link">Contatos</a></li>
+
+    </div>
+
+</header>
+<main>
+
+
+    <section id="botoes">
+
+        <a href="login.html">
+
+            <button class="botao_nav1">Cadastre-se</button>
+
+        </a>
+
+        <a href=""></a>
+
+            <button class="botao_nav2">Login</button>
+
+        </a>
+
+    </section>
+
+
+
+    <div id="area_login">
+
+        <h2>Criar uma conta</h2>
+
+        <p id="arruma_pfvr">Seja bem-vindo ao D.VA! O que você está procurando?</p>
+
+        <section id="checkbox_area">
+
+        <article class="check_login">
+            <input type="checkbox" class="checkbox" name="interesse" value="contratar"/>
+            <label for="contratar"> Quero contratar </label>
+            <p>Publique a sua vaga e encontre freelancers incríveis.</p>
+
+        </article>
+
+        <article class="check_login">
+            <input type="checkbox" class="checkbox" name="interesse" value="contratar"/>
+            <label for="contratar"> Quero trabalhar </label>
+            <p>Encontre projetos, seja contratado e ganhe dinheiro.</p>
+        </article>
+
+        </section>
+
+        <button id="confirmar_conta">Confirmar</button>
+
+    </div>
+
+    
+
+
+</main>
+<footer>
+
+    <p>Desenvolvído por Danilo e Vanessa</p>
+    <p>Alunos do Curso Técnico de Informática - Senac Santos</p>
+
+</footer>
+</body>
+</html>

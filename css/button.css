@@ -1,0 +1,26 @@
+#botoes {
+
+    display: none;
+
+}
+
+.container_logo {
+
+    display: none;
+
+}
+
+
+@media (min-width: 1280px) {
+
+#botoes {
+    display: block
+
+}
+
+.container_logo {
+
+    display: block;
+
+}
+}
